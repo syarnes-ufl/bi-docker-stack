@@ -1,8 +1,8 @@
 [submodule "bi-web"]
 	path = bi-web
-	url = https://github.com/Breeding-Insight/bi-web
-	branch = develop
+	url = https://github.com/syarnes-ufl/bi-web
+	branch = feature/reactivate-genotype-visualization
 [submodule "bi-api"]
 	path = bi-api
-	url = https://github.com/Breeding-Insight/bi-api
-	branch = develop
+	url = https://github.com/syarnes-ufl/bi-api
+	branch = feature/reactivate-genotype-visualization

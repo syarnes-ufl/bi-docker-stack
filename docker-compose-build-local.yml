@@ -1,0 +1,14 @@
+version: "3.7"
+
+# Local override: run bi-web and bi-api built from the checked-out submodules.
+# bi-api's Dockerfile copies bi-api/target/bi-api*.jar, so build the jar first.
+
+services:
+  biweb:
+    image: biweb:local
+    build:
+      context: ./bi-web
+  biapi:
+    image: biapi:local
+    build:
+      context: ./bi-api
