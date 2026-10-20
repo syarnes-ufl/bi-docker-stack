@@ -12,3 +12,5 @@ services:
     image: biapi:local
     build:
       context: ./bi-api
+    environment:
+      - GENOTYPE_VISUALIZATION_ENABLED=true
